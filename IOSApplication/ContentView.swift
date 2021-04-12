@@ -11,6 +11,7 @@ struct ContentView: View {
     var body: some View {
         Text("Hello, world!")
             .padding()
+            .frame(width: /*@START_MENU_TOKEN@*/100.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100.0/*@END_MENU_TOKEN@*/)
     }
 }
 
